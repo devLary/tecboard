@@ -1,20 +1,26 @@
 /*Definição de fontes*/
 
 @font-face {
-    font-family: "Poppins-Bold";
-    src: url(fonts/Poppins-Bold.ttf);
-    font-weight: 700;
+    font-family: "Poppins-SemiBold";
+    src: url(fonts/Poppins-SemiBold.ttf)
+    format(truetype);
+    font-weight: 600;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Unbounded";
-    src: url(fonts/Unbounded-VariableFont_wght.ttf);
+    src: url(../fonts/Unbounded-Bold.ttf)
+    format("truetype");
     font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: "Poppins-regular";
-    src: url(fonts/Poppins-Regular.ttf);
+    font-family: "Poppins-Regular";
+    src: url(../fonts/Poppins-Regular.ttf)
+    format(truetype);
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -30,8 +36,6 @@
 body {
     color: white;
     background-color: black;
-    font-family: "Poppins-Regular";
-    font-weight: 400;
 }
 
 header img {
@@ -41,8 +45,7 @@ header img {
 
 h1 {
     font-family: "Unbounded", sans-serif;
-    font-weight: 700;
-    font-size: 80px;
+    font-size: 64px;
     text-align: center;
     display: block;
     margin-top: 60px;
@@ -54,7 +57,6 @@ h1 span {
 
 p {
     font-family: "Poppins-Regular", sans-serif;
-    font-weight: 400;
     font-size: 24px;
     text-align: center;
     margin: 24px auto;
@@ -65,6 +67,7 @@ p {
 
 
 a {
+    font-family: "Poppins-SemiBold", sans-serif;
     display: flex;
     background-color: #9747FF;
     width: 340px;
